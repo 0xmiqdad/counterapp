@@ -1,0 +1,55 @@
+body{
+    background-image: url(background.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+    justify-content: center;
+    padding: 40px;
+    height: 50vh;
+}
+
+.bodybox{
+    border: 2px transparent;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 25px;
+    width: 40%;
+}
+
+.people{
+    text-align: center;
+}
+
+.counter{
+    text-align: center;
+    font-size: 30px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incrementbox{
+    border: 1px solid rgb(68, 68, 112);
+    background-color: red;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.savebox{
+    border: 1px solid rgb(68, 68, 112);
+    background-color: green;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.textarea{
+    color: silver;
+    font-size: 20px;
+}
